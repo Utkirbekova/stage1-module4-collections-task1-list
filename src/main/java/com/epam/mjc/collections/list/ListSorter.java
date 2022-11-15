@@ -1,5 +1,4 @@
 package com.epam.mjc.collections.list;
-
 import java.util.Comparator;
 import java.util.List;
 
@@ -10,7 +9,6 @@ public class ListSorter {
         );
     }
 }
-//5x^2+3
 class ListComparator implements Comparator<String> {
     @Override
     public int compare(String a, String b) {
